@@ -1,0 +1,24 @@
+.home {
+  overflow: hidden;
+  display: flex;
+}
+
+.snap-container {
+  transform: perspective(0);
+  flex-grow: 1;
+  width: min-content;
+}
+
+.home-frame-container > .frame {
+  left: 0 !important;
+  top: 0 !important;
+  position: absolute;
+}
+
+.snap-img{
+  width: 100%;
+}
+
+.detail {
+  transition: width 0.5s;
+}
