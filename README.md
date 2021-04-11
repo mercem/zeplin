@@ -6,6 +6,9 @@ Install required packages
 
 Run application
 
+###
+
+Run `npm install` and `npm start` and application will be server on port  `3000`.
 
 ## Approach
 
